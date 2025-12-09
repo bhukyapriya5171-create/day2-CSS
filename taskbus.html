@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <center>
+        <table border="1" bgcolor="sky-blue" height="100px" width="640px" align="center" cellpadding="2px"
+            cellspacing="0px">
+            <tr>
+                <td>
+                    <center><img src="https://www.tgsrtc.telangana.gov.in/tsrtc-logo@5x.webp" height="50px"
+                            width="50px"></center>
+                    <center><button style="color: rgb(255, 0, 230);">
+                            <h3>TELANGANA STATE ROAD TRANSPORT CORPORATION</h3>
+                            <h3>GENERAL BUS PASS APPLICATION</h3>
+                        </button></center>
+                </td>
+            </tr>
+        </table>
+    </center>
+    <center>
+        <fieldset style="border: 2px solid; padding: 10px; width: 800px;">
+            <legend style="background-color: blue; color:white">Applicant Details</legend>
+            <form>
+                <label for="name">Name <span style="color: red">*</span></label>&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" id="name"
+                    placeholder="Enter your name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="fathersname">Father's Name <span></span>*</label>
+                <input type="text" id="fathersname"><br><br>
+                <label for="dob">Date of Birth *</label>
+                <input type="Date"
+                    id="dob">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="gender">Gender *</label>&nbsp;
+                <label for="Female">Female</label>
+                <input type="radio" id="Female" name="gender" placeholder="Female" value="Female" required>
+                <label for="Male">Male</label>
+                <input type="radio" id="Male" name="gender" placeholder="Male" value="Male" required><br><br>
+                <label for="age">Age As on:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="month"
+                    id="age">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="aadhar">Aadhaar No: *</label>
+                <input type="number" id="aadhar"><br><br>
+                <label for="mobile-number">WhatsApp No *</label>
+                <input type="number" id="mobile-number" placeholder="Enter mobile number" name="name"
+                    required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="email">E-mail id *</label>
+                <input type="email" id="email" placeholder="Enter your email"><br><br>
+                <label for="photo">Photo *</label>
+                <input type="file" id="photo">
+            </form>
+        </fieldset>
+        <fieldset style="border: 2px solid; padding: 10px; width: 800px;">
+            <legend style="background-color: blue; color:white">Residential Address Details</legend>
+            <form>
+                <label for="address">Applicant's Address *</label>
+                <textarea name="" id="address" cols="20"
+                    rows="5"></textarea>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="district">District</label>
+                <select name="" id="">
+                    <option value=".....select....." disabled selected>...............select...............</option>
+                    <option value="Vemulawada">Vemulawada</option>
+                    <option value="Karimnagar">Karimnagar</option>
+                    <option value="sircilla">Sircilla</option>
+                </select><br><br>
+                <label for="mandal">Mandal *</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select name="" id="">
+                    <option value=".....select....." disabled selected>...............select...............</option>
+                    <option value="Vemulawada">Vemulawada</option>
+                    <option value="Karimnagar">Karimnagar</option>
+                    <option value="Rajanna Sircilla">Rajanna Sircilla</option>
+                </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label fpr="village">Village *</label>
+                <select name="" id="">
+                    <option value=".....select....." disabled selected>...............select...............</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Karimnagar">Karimnagar</option>
+                    <option value="Vemulawada">Vemulawada</option>
+                    <option value="Sircilla">Sircilla</option>
+                    <option value="Warangal">Warangal</option>
+                </select><br><br>
+                <label for="pincode">Pincode *</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="number" id="pincode" placeholder="Enter your pincode">
+            </form>
+        </fieldset>
+        <fieldset style="border: 2px solid; padding: 10px; width:800px;">
+            <legend style="background-color: blue; color:white">Pass Type Details</legend>
+            <form>
+                <label for="distict">District</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select name="" id="">
+                    <option value=".....select....." disabled selected>...............select...............</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Karimnagar">Karimnagar</option>
+                    <option value="Vemulawada">Vemulawada</option>
+                    <option value="Sircilla">Sircilla</option>
+                    <option value="Warangal">Warangal</option>
+                </select><br><br>
+                <label for="passtype">Pass Type *</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                <select name="" id="">
+                    <option value=".....select....." disabled selected>...............select...............</option>
+                    <option value="city-ordinary">City Ordinary</option>
+                    <option value="sub-urban">Sub Urban</option>
+                    <option value="metro-express">Metro Express</option>
+                    <option value="Metro-deluxe">Metro Deluxe</option>
+                    <option value="metro-luxury">Metro Luxury</option>
+                </select><br><br>
+            </form>
+        </fieldset>
+        <fieldset style="border: 2px solid; padding: 10px; width: 800px;">
+            <legend style="background-color: blue; color:white">Mode of Payment & Pass Collection</legend>
+            <form>
+                <label for="payment">Payment Mode
+                    *</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select name="" id="">
+                    <option value=".....select....." disabled selected>...Select Payment Mode...</option>
+                    <option value="gpay">Google pay</option>
+                    <option value="phnpe">Phone pe</option>
+                    <option value="paytm">Paytm</option>
+                    <option value="credit">Credit Card</option>
+                    <option value="debit">Debit Card</option>
+                </select><br><br>
+                <label for="collect">Center for Collect Pass *</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                <select name="" id="">
+                    <option value=".....select....." disabled selected>................Select................</option>
+                    <option value="charminar">Charminar</option>
+                    <option value="dilsuk">Dilsukhnagar</option>
+                    <option value="kphb">K.P.H.B</option>
+                    <option value="kukatpally">Kukatpally</option>
+                    <option value="jbs">JBS</option>
+                </select><br><br>
+            </form>
+        </fieldset><br>
+    </center>
+    <center>
+        <button style="background-color: red; color: aliceblue;">y4uQOX</button>
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQw
+                MDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc
+                3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAMAAzAMBEQACEQEDEQH/xAAcAAEAAQUBAQAAA
+                AAAAAAAAAAABgECBAUHAwj/xAA9EAABAwMBBAcFCAECBwAAAAABAAIDBAURBhIhMUETIlFhcYGRBxRCUqEjMjNTYnKx0RVD4SQ0kr
+                LBwsP/xAAaAQEAAgMBAAAAAAAAAAAAAAAAAwQBAgUG/8QANBEBAAICAQMDAgQEBAcAAAAAAAECAxEEEiExBUFRE2EiM3GBMkKhsRRS4
+                fAjJDRDkcHR/9oADAMBAAIRAxEAPwDuKAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+                ICAgICAgpkIB4II/edTR2yV0bKKeo2Nz3RkAA+auYOFbLG+rSvk5FaTrTW2/2iWipnENZHUULicbU4BZ6gnHmpcvpeakbrMT+jFOTS0/C
+                XwyxysEkT2vY4ZDmnIIXOmJidSsRMT4eiMiAgICAgICAgICAgICAgICAgIKZCxseNTWU1KzbqJ2Rt5bR4+C3rS1v4Y21taK+Wpk1JTZ2a
+                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"
+            height="30px" width="30px"><br><br>
+        <form>
+            <input type=""><br><br>
+            <button style="background-color: rgb(49, 210, 17); color: aliceblue;">Submit</button>
+        </form>
+    </center>
+</body>
+
+</html>
