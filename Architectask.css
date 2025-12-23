@@ -1,0 +1,22 @@
+img{
+    width: 100%;
+    height: 100%;
+}
+.contiainer{
+    width: 100%;
+    position: relative;
+
+
+}
+h2{
+    position: absolute;
+    top: 45%;
+    bottom: 60%;
+    left: 43%;
+    color: white;
+
+}
+span{
+    background-color: black;
+    color: white;
+}
