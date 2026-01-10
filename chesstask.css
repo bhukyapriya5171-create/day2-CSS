@@ -1,0 +1,40 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #111;
+}
+
+.board{
+  width: 320px;
+  display: flex;
+  flex-wrap: wrap;     /* KEY */
+  /* border-radius: 8px; */
+  /* overflow: hidden; */
+}
+
+.square{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  transition: transform 0.3s ease;
+}
+
+.light{
+  background: #eeeed2;
+  
+}
+
+.dark{
+  background:green;
+}
+
+/* hover effect */
+.square:hover{
+  transform: scale(1.1);
+}
+
