@@ -1,4 +1,4 @@
-body{
+body {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6,15 +6,16 @@ body{
   background: #111;
 }
 
-.board{
+.board {
   width: 320px;
   display: flex;
-  flex-wrap: wrap;     /* KEY */
+  flex-wrap: wrap;
+  /* KEY */
   /* border-radius: 8px; */
   /* overflow: hidden; */
 }
 
-.square{
+.square {
   width: 40px;
   height: 40px;
   display: flex;
@@ -24,17 +25,16 @@ body{
   transition: transform 0.3s ease;
 }
 
-.light{
-  background: #eeeed2;
-  
+.light {
+  background: white;
+
 }
 
-.dark{
-  background:green;
+.dark {
+  background: greenyellow;
 }
 
 /* hover effect */
-.square:hover{
+.square:hover {
   transform: scale(1.1);
 }
-
